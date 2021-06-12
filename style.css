@@ -1,0 +1,41 @@
+body{
+    background-color: #2ec4b6;
+    color: aliceblue;
+    margin: 0;
+    text-align: center;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    background: url('./robot.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-position: left center;
+
+
+}
+#button{
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border: none;
+    background-color: #fdfffc;
+    color: #e71d36;
+    box-shadow: 3px 5px 10px rgba(0,0,0,0.4);
+    border-radius: 10px;
+    
+}
+
+/* Media query for Tablet or Smaller */
+@media screen and (max-width: 1000px){
+    .container{
+        background-size: cover;
+        background-position: center center;
+    }
+}
